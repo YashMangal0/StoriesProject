@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import './globals.css'
 const Home = () => {
   const [stories, setStories] = useState([]);
   const [category, setCategory] = useState('topstories');
